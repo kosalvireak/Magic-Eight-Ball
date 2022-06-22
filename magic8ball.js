@@ -3,7 +3,7 @@ userName === 'Jane' ? console.log('Hello, Jane!'): console.log('Hello!');
 let userQuestion = '';
 console.log(`Question ${userQuestion}`);
 let randomNumber = (Math.floor(Math.random()*8));
-let eightBall = '';
+let eightBall = "";
 switch (randomNumber){
   case(0):
     eightBall = 'It is certain';
